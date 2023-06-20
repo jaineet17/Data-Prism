@@ -7,7 +7,8 @@ ________________
                                         Namit Bansal    
                                         Niyati Mittal
                                             
-Introduction
+Introduction - 
+
 We are using three data sources for the purpose of this project.
 1. The Books Dataset has been extracted from Amazon using Beautiful Soup.
 2. The Youtube Videos Dataset has been extracted using the Youtube API.
@@ -17,9 +18,9 @@ We are using three data sources for the purpose of this project.
 The purpose of this project is to help the data science enthusiasts to be able to search for books, jobs and youtube videos related to but not limited to data science. The user can use our easy to use GUI to enter some search terms related to Data Science ( such as R Programming, Python) and can get recommendations on books, jobs and youtube videos related to the user search query. For the purpose of this project we are using pre-extracted/scraped data, details of which are shared in the following sections.
 
 
-Instructions  
-Books Dataset 
+Instructions -
 
+Books Dataset 
 
 A raw file called raw_books.csv is also present in the directory to show the users the raw data that we had extracted which has 924 books. After data cleaning we had created the csv file final_books_dataset.csv which has 614 books along with the description for each book extracted again from amazon.
 
