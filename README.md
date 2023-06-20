@@ -102,12 +102,11 @@ Authentication with youtube API.
 18. pip install beautifulsoup4
 
 19. pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.2.0/en_core_web_sm-3.2.0-py3-none-any.whl
+    Required for downloading the en_core_web_sm model for processing text.
 
-Required for downloading the en_core_web_sm model for processing text.
+21. pip install requests
 
-20. pip install requests
-
-21. conda install -c huggingface transformers-> includes dependencies for the Bart model. 
+22. conda install -c huggingface transformers-> includes dependencies for the Bart model. 
 
 
 The main file is GUI.py. The user can directly obtain the GUI with all functionality by running GUI.py. Note that all the files must be present in the same directory.
