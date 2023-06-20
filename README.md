@@ -53,7 +53,7 @@ This python file is used to transform and clean the raw data. Some values in the
 This file contains the final and transformed data for the final jobs with 540 listings. We used this data to run user queries on the GUI. 
 
 
-### Note that, live scraping is possible but it will take some time to extract and create a dataset for 500+ jobs. For this project, we do not encourage live web-scraping for jobs because that is time-consuming and would slow the user experience. 
+#### Note that, live scraping is possible but it will take some time to extract and create a dataset for 500+ jobs. For this project, we do not encourage live web-scraping for jobs because that is time-consuming and would slow the user experience. 
 
 ________________
 ## Requirements and Installation 
