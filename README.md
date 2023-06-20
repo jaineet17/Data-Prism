@@ -1,6 +1,5 @@
 ________________
 Data Prism
-Readme File
 ________________
                                         Ashutosh Choudhary
                                         Dibyanshu Patnaik 
