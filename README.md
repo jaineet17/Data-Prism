@@ -47,7 +47,7 @@ Youtube Videos Dataset:
 
 Please use the youtube_output_raw.xls, youtube_output_clean.xls and youtube_output_caption_summary.xls present in the directory to run this project. These excel files contain the already scraped from Youtube_API_Data_Scraping.py and processed summary data from Summary_Generator_Youtube_Captions.py. 
 Live scraping from the Youtube API is possible but it is time consuming to scrape around 900 videos. 
-1. In order to run Youtube_API_Data_Scraping.py, the user needs to authenticate himself as a test user in the google developer console of the admin and hence we have added jostlund@andrew.cmu.edu and jkostlund@gmail.com as test users. The credentials.json and token4.pickle file is included in the directory for the authentication process. After the authentication, the data scraping for about 900 videos takes about 20-30 mins. 
+1. In order to run Youtube_API_Data_Scraping.py, the user needs to authenticate himself as a test user in the google developer console of the admin. After the authentication, the data scraping for about 900 videos takes about 20-30 mins. 
 2. The Summary_Generator_Youtube_Captions.py generates the summary of the captions of the scraped youtube videos. It uses the Bart hugging-face  model and therefore it takes around 6-7 hours to generate the summary of all the videos' captions. 
 
 
