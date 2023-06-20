@@ -108,9 +108,8 @@ Authentication with youtube API.
 
 22. conda install -c huggingface transformers-> includes dependencies for the Bart model. 
 
+#### The main file is GUI.py. The user can directly obtain the GUI with all functionality by running GUI.py. Note that all the files must be present in the same directory.
 
-The main file is GUI.py. The user can directly obtain the GUI with all functionality by running GUI.py. Note that all the files must be present in the same directory.
-
-The GUI was implemented on a 32 inch monitor and therefore there can be some discrepancies on screens of other sizes. 
+#### The GUI was implemented on a 32 inch monitor and therefore there can be some discrepancies on screens of other sizes. 
 
 ### Video Link - https://youtu.be/a5CQfETcnYM
