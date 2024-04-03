@@ -1,14 +1,14 @@
 ________________
 # Data Prism
 ________________
-## Authors - 
+## Authors
 Ashutosh Choudhary <br>
 Dibyanshu Patnaik <br>
 Jaineet Shah <br>
 Namit Bansal <br>
 Niyati Mittal
                                             
-## Introduction - 
+## Introduction 
 We are using three data sources for the purpose of this project.
 1. The Books Dataset has been extracted from Amazon using Beautiful Soup.
 2. The Youtube Videos Dataset has been extracted using the Youtube API.
@@ -17,9 +17,9 @@ We are using three data sources for the purpose of this project.
 The purpose of this project is to help the data science enthusiasts to be able to search for books, jobs and youtube videos related to but not limited to data science. The user can use our easy to use GUI to enter some search terms related to Data Science ( such as R Programming, Python) and can get recommendations on books, jobs and youtube videos related to the user search query. For the purpose of this project we are using pre-extracted/scraped data, details of which are shared in the following sections.
 
 
-## Instructions -
+## Instructions
 
-### Books Dataset:
+### Books Dataset
 A raw file called raw_books.csv is also present in the directory to show the users the raw data that we had extracted which has 924 books. After data cleaning we had created the csv file final_books_dataset.csv which has 614 books along with the description for each book extracted again from amazon.
 
 Please use the final_books_dataset.csv present in the directory to run this project. We will be using this csv file which has already been scraped from amazon. 
@@ -33,7 +33,7 @@ Issues with Live Web Scraping of Data from amazon :
 Remember :
 For the current implementation of the project please make use of the final_books_dataset.csv present in the directory. 
 
-### Youtube Videos Dataset: 
+### Youtube Videos Dataset 
 Please use the youtube_output_raw.xls, youtube_output_clean.xls and youtube_output_caption_summary.xls present in the directory to run this project. These excel files contain the already scraped from Youtube_API_Data_Scraping.py and processed summary data from Summary_Generator_Youtube_Captions.py. 
 Live scraping from the Youtube API is possible but it is time consuming to scrape around 900 videos. 
 1. In order to run Youtube_API_Data_Scraping.py, the user needs to authenticate himself as a test user in the google developer console of the admin. After the authentication, the data scraping for about 900 videos takes about 20-30 mins. 
@@ -41,7 +41,7 @@ Live scraping from the Youtube API is possible but it is time consuming to scrap
 
 Hence in order to avoid the hassle, the user can run the Youtube_Api_Data_Processing.py which uses the already extracted .xls data files mentioned above to perform a semantic search on the youtube videos dataset based on the input query.
 
-### Jobs Dataset: 
+### Jobs Dataset 
 There are 4 files associated with Jobs data.
 
 * Jobs_scrape.py 
