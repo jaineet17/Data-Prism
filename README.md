@@ -2,11 +2,11 @@ ________________
 # Data Prism
 ________________
 ## Authors
-Ashutosh Choudhary <br>
-Dibyanshu Patnaik <br>
-Jaineet Shah <br>
-Namit Bansal <br>
-Niyati Mittal
+- Ashutosh Choudhary 
+- Dibyanshu Patnaik 
+- Jaineet Shah 
+- Namit Bansal 
+- Niyati Mittal
                                             
 ## Introduction 
 We are using three data sources for the purpose of this project.
